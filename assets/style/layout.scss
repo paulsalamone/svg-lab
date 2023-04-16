@@ -1,0 +1,15 @@
+body {
+    font-family: $font1;
+    // border: 5px solid red;
+    height: 100vh;
+    padding: .75rem 1rem;
+    max-width: 1800px;
+}
+
+
+#default {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+}

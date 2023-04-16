@@ -1,0 +1,47 @@
+.c-navigation {
+
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid $secondary;
+    margin-bottom: 2rem;
+
+    &__logo {
+        // border: 1px solid grey;
+        margin: 1rem;
+
+        h1 {
+            a {
+                text-decoration: none;
+                color: $primary;
+            }
+
+        }
+    }
+
+    &__nav {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        ul {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            li {
+
+                list-style-type: none;
+                margin: 1rem;
+
+                a {
+                    color: $secondary;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
