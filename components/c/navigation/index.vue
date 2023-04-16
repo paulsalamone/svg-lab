@@ -7,11 +7,11 @@
       <ul>
         <li><NuxtLink to="/lab">Lab</NuxtLink></li>
         <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-        <li><NuxtLink to="/projects/example">Project Example</NuxtLink></li>
+        <!-- <li><NuxtLink to="/projects/example">Project Example</NuxtLink></li> -->
       </ul>
     </nav>
   </div>
 </template>
 
-<style src="./navigation.scss">
+<style src="./index.scss">
 </style>

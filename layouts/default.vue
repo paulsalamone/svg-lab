@@ -1,10 +1,16 @@
 <template>
   <div id="default">
     <div>
-      <Navigation />
-      <slot />
+      <c-navigation />
+      <div class="content"><slot /></div>
     </div>
 
-    <Footer />
+    <c-footer />
   </div>
 </template>
+
+<style lang="css">
+.content {
+  padding: 0 2rem;
+}
+</style>
