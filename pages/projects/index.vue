@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>projects</h1>
-    <p>results: {{ results ? results.length : null }}</p>
     <p v-for="(result, index) of results" :key="result.id">
       {{ result.text }}
     </p>

@@ -4,7 +4,7 @@
     <!-- HERO -->
     <p>
       This is an AI-powered vector art tool created by Paul S. in Berlin,
-      Germany.
+      Germany. Coming soon...
     </p>
     <!-- 3 THINGS -->
   </div>
