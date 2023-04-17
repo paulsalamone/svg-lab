@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   //   runtimeConfig: {
   //     VITE_API_KEY: "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",
   //   },
-  modules: ["@nuxtjs/supabase"],
+  ssr: false,
+  modules: ["@nuxtjs/supabase", "@pinia/nuxt"],
   vite: {
     css: {
       preprocessorOptions: {

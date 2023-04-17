@@ -18,6 +18,13 @@ import { ref } from "vue";
 const client = useSupabaseClient();
 const results = ref(null);
 
+// FYI youll probably have to use Nuxt 3's useAsyncData here
+
+// or you can use this:
+
+// TUTORIAL:
+// https://www.youtube.com/watch?v=A-G6lPHctPs&t=78s
+
 // IMPORTANT: ENABLE RLS!!!!!
 
 const { data: notes } = await useAsyncData("notes", async () => {

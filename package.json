@@ -13,8 +13,12 @@
     "nuxt": "^3.3.0"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
     "openai": "^3.2.1",
+    "pinia": "^2.0.34",
     "sass": "^1.62.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.2.96"
   }
 }
